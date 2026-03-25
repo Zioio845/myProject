@@ -3,11 +3,26 @@
 	<head>
 		<title>Trang 3</title>
 		<meta charset = "utf-8">
+	<style>
+		div + p {
+			background-color: aqua;
+		}
+	</style>
+
 	</head>
 	<body>
 		<h1>Trang 3 đẹp trai</h1>
+		<h2>Nội dung về selector</h2>
 		<button onclick="document.location = '../index.html' ">Trang Chủ</button>
-		<a href ="page1.html" target = "_blank"> Trang 1
-		<a href ="page2.html" target = "_blank"> Trang 2
+		<button onclick="document.location ='page1.html'">Trang 1</button>
+		<button onclick="document.location ='page2.html'">Trang 2</button>
+		<h3>Test Combinator selectors</h3>
+		<div>
+			<p>Văn bản</p>
+		</div>
+		<p>Văn bản</p>
+		<p>Văn bản</p>
+		<p>Văn bản</p>
+		<p>Văn bản</p>
 	</body>
 </html>
