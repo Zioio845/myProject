@@ -27,3 +27,7 @@ body{
     button:focus{
 	background-color: yellow;
 }
+
+div.time{
+	text-align: center;
+}
