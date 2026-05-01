@@ -12,3 +12,7 @@ div.container-fluid{
 div.container-fluid.mt-3{
 	background-color: white;
 }
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
